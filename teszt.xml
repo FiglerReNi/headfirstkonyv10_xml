@@ -1,0 +1,25 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http:\\teszt1.hu'
+      xmlns:media='http:\\teszt2.hu'
+      xmlns:yt='http:\\teszt3.hu'>
+    <title type='text'>Próba XML</title>
+
+    <entry>
+        <id>123</id>
+        <media:group>
+            <media:title type='plain'>A cím</media:title>
+            <media:description type='plain'>A cím leírása</media:description>
+            <yt:duration seconds='50'/>
+        </media:group>
+    </entry>
+
+    <entry>
+        <id>456</id>
+        <media:group>
+            <media:title type='plain'>B cím</media:title>
+            <media:description type='plain'>B cím leírása</media:description>
+            <yt:duration seconds='60'/>
+        </media:group>
+    </entry>
+
+</feed>
